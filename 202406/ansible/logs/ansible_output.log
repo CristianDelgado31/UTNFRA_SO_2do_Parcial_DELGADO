@@ -1,0 +1,1570 @@
+2024-06-24 18:08:06,499 p=3444395 u=upszot n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-06-24 18:08:06,598 p=3444395 u=upszot n=ansible | PLAY [all] **********************************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:06,609 p=3444395 u=upszot n=ansible | TASK [Gathering Facts] **********************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,746 p=3444395 u=upszot n=ansible | ok: [localhost]
+2024-06-24 18:08:07,775 p=3444395 u=upszot n=ansible | TASK [include_role : 2do_parcial] ***********************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,805 p=3444395 u=upszot n=ansible | TASK [2do_parcial : debug] ******************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,817 p=3444395 u=upszot n=ansible | ok: [localhost] => {
+    "msg": "Tareas del 2do Parcial"
+}
+2024-06-24 18:08:07,836 p=3444395 u=upszot n=ansible | TASK [Otra tarea] ***************************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,851 p=3444395 u=upszot n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-06-24 18:08:07,885 p=3444395 u=upszot n=ansible | PLAY RECAP **********************************************************************************************************************************************************************************************************************************
+2024-06-24 18:08:07,885 p=3444395 u=upszot n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-18 22:08:08,139 p=2284 u=vagrant n=ansible | ERROR! the role '2do_parcial' was not found in /home/vagrant/repogit/UTN-FRA_SO_Examenes/202406/ansible/roles/2do_parcial/tests/roles:/tmp:/home/vagrant/repogit/UTN-FRA_SO_Examenes/202406:/home/vagrant/repogit/UTN-FRA_SO_Examenes/202406/ansible/roles/2do_parcial/tests
+
+The error appears to be in '/home/vagrant/repogit/UTN-FRA_SO_Examenes/202406/ansible/roles/2do_parcial/tests/test.yml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+    - 2do_parcial
+      ^ here
+
+2024-11-18 22:24:21,542 p=2301 u=vagrant n=ansible | ERROR! the role '2do_parcial' was not found in /home/vagrant/repogit/UTN-FRA_SO_Examenes/202406/ansible/roles/2do_parcial/tests/roles:/tmp:/home/vagrant/repogit/UTN-FRA_SO_Examenes/202406:/home/vagrant/repogit/UTN-FRA_SO_Examenes/202406/ansible/roles/2do_parcial/tests
+
+The error appears to be in '/home/vagrant/repogit/UTN-FRA_SO_Examenes/202406/ansible/roles/2do_parcial/tests/test.yml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+    - 2do_parcial
+      ^ here
+
+2024-11-18 22:49:18,417 p=2561 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-18 22:49:18,421 p=2561 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match
+'all'
+
+2024-11-18 22:49:18,743 p=2561 u=vagrant n=ansible | PLAY [all] *************************************************************************************************************
+2024-11-18 22:49:18,744 p=2561 u=vagrant n=ansible | skipping: no hosts matched
+2024-11-18 22:49:18,744 p=2561 u=vagrant n=ansible | PLAY RECAP *************************************************************************************************************
+2024-11-18 22:49:47,959 p=2572 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-18 22:49:47,971 p=2572 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match
+'all'
+
+2024-11-18 22:49:48,145 p=2572 u=vagrant n=ansible | PLAY [all] *************************************************************************************************************
+2024-11-18 22:49:48,146 p=2572 u=vagrant n=ansible | skipping: no hosts matched
+2024-11-18 22:49:48,146 p=2572 u=vagrant n=ansible | PLAY RECAP *************************************************************************************************************
+2024-11-18 23:02:24,490 p=2682 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-18 23:02:24,494 p=2682 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-11-18 23:02:24,628 p=2682 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-18 23:02:24,629 p=2682 u=vagrant n=ansible | skipping: no hosts matched
+2024-11-18 23:02:24,630 p=2682 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-18 23:08:56,429 p=2729 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-18 23:08:56,433 p=2729 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-11-18 23:08:56,556 p=2729 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-18 23:08:56,556 p=2729 u=vagrant n=ansible | skipping: no hosts matched
+2024-11-18 23:08:56,557 p=2729 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-18 23:16:37,995 p=2865 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-18 23:16:37,999 p=2865 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-11-18 23:16:38,117 p=2865 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-18 23:16:38,118 p=2865 u=vagrant n=ansible | skipping: no hosts matched
+2024-11-18 23:16:38,119 p=2865 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-18 23:19:40,940 p=2888 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-18 23:19:40,944 p=2888 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-11-18 23:19:41,063 p=2888 u=vagrant n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: produccion
+
+2024-11-18 23:19:41,064 p=2888 u=vagrant n=ansible | PLAY [produccion] **************************************************************************************************************************************************************************
+2024-11-18 23:19:41,065 p=2888 u=vagrant n=ansible | skipping: no hosts matched
+2024-11-18 23:19:41,066 p=2888 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-18 23:20:00,822 p=2891 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-18 23:20:00,826 p=2891 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-11-18 23:20:00,948 p=2891 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-18 23:20:00,950 p=2891 u=vagrant n=ansible | skipping: no hosts matched
+2024-11-18 23:20:00,950 p=2891 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-18 23:36:30,620 p=2984 u=vagrant n=ansible | ERROR! the playbook: tests/test.yml could not be found
+2024-11-18 23:36:39,922 p=2988 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-18 23:36:39,926 p=2988 u=vagrant n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-11-18 23:36:40,064 p=2988 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-18 23:36:40,064 p=2988 u=vagrant n=ansible | skipping: no hosts matched
+2024-11-18 23:36:40,064 p=2988 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-18 23:43:04,136 p=3107 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-18 23:43:04,271 p=3107 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-18 23:43:04,380 p=3107 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************
+2024-11-18 23:43:06,158 p=3107 u=vagrant n=ansible | ok: [localhost]
+2024-11-18 23:43:06,259 p=3107 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-18 23:43:06,272 p=3107 u=vagrant n=ansible | TASK [include_role : 2do_parcial] **********************************************************************************************************************************************************
+2024-11-18 23:43:06,352 p=3107 u=vagrant n=ansible | TASK [2do_parcial : debug] *****************************************************************************************************************************************************************
+2024-11-18 23:43:06,372 p=3107 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Tareas del 2do Parcial"
+}
+2024-11-18 23:43:06,378 p=3107 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Tareas del 2do Parcial"
+}
+2024-11-18 23:43:06,386 p=3107 u=vagrant n=ansible | TASK [Otra tarea] **************************************************************************************************************************************************************************
+2024-11-18 23:43:06,401 p=3107 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-18 23:43:06,409 p=3107 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-18 23:43:06,423 p=3107 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-18 23:43:06,423 p=3107 u=vagrant n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-18 23:43:06,424 p=3107 u=vagrant n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-19 00:25:43,996 p=3526 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-19 00:25:44,131 p=3526 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-19 00:25:44,141 p=3526 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************
+2024-11-19 00:25:45,313 p=3526 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 00:25:45,975 p=3526 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 00:25:45,992 p=3526 u=vagrant n=ansible | TASK [include_role : 2do_parcial] **********************************************************************************************************************************************************
+2024-11-19 00:25:46,042 p=3526 u=vagrant n=ansible | TASK [2do_parcial : debug] *****************************************************************************************************************************************************************
+2024-11-19 00:25:46,063 p=3526 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Tareas del 2do Parcial"
+}
+2024-11-19 00:25:46,069 p=3526 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Tareas del 2do Parcial"
+}
+2024-11-19 00:25:46,079 p=3526 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio alumno] ***********************************************************************************************************************************************
+2024-11-19 00:25:46,461 p=3526 u=vagrant n=ansible | changed: [localhost]
+2024-11-19 00:25:46,499 p=3526 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 00:25:46,509 p=3526 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio equipo] ***********************************************************************************************************************************************
+2024-11-19 00:25:46,742 p=3526 u=vagrant n=ansible | changed: [localhost]
+2024-11-19 00:25:46,889 p=3526 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 00:25:46,896 p=3526 u=vagrant n=ansible | TASK [Otra tarea] **************************************************************************************************************************************************************************
+2024-11-19 00:25:46,913 p=3526 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-19 00:25:46,920 p=3526 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-19 00:25:46,952 p=3526 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-19 00:25:46,952 p=3526 u=vagrant n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-19 00:25:46,952 p=3526 u=vagrant n=ansible | localhost                  : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-19 01:24:33,531 p=4099 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-19 01:24:33,653 p=4099 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-19 01:24:33,662 p=4099 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************
+2024-11-19 01:24:34,903 p=4099 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 01:24:35,345 p=4099 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:24:35,361 p=4099 u=vagrant n=ansible | TASK [include_role : 2do_parcial] **********************************************************************************************************************************************************
+2024-11-19 01:24:35,408 p=4099 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio alumno] ***********************************************************************************************************************************************
+2024-11-19 01:24:35,742 p=4099 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 01:24:35,792 p=4099 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:24:35,800 p=4099 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio equipo] ***********************************************************************************************************************************************
+2024-11-19 01:24:36,020 p=4099 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 01:24:36,162 p=4099 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:24:36,170 p=4099 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_alumno.txt] ****************************************************************************************************************************************
+2024-11-19 01:24:36,337 p=4099 u=vagrant n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "AnsibleUndefinedVariable: 'nombre' is undefined"}
+2024-11-19 01:24:36,351 p=4099 u=vagrant n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "msg": "AnsibleUndefinedVariable: 'nombre' is undefined"}
+2024-11-19 01:24:36,353 p=4099 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-19 01:24:36,353 p=4099 u=vagrant n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-19 01:24:36,353 p=4099 u=vagrant n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-19 01:36:53,448 p=4620 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-19 01:36:53,573 p=4620 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-19 01:36:53,585 p=4620 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************
+2024-11-19 01:36:54,872 p=4620 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 01:36:55,380 p=4620 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:36:55,393 p=4620 u=vagrant n=ansible | TASK [include_role : 2do_parcial] **********************************************************************************************************************************************************
+2024-11-19 01:36:55,442 p=4620 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio alumno] ***********************************************************************************************************************************************
+2024-11-19 01:36:55,804 p=4620 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 01:36:55,832 p=4620 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:36:55,840 p=4620 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio equipo] ***********************************************************************************************************************************************
+2024-11-19 01:36:56,057 p=4620 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 01:36:56,167 p=4620 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:36:56,176 p=4620 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_alumno.txt] ****************************************************************************************************************************************
+2024-11-19 01:36:56,960 p=4620 u=vagrant n=ansible | changed: [localhost]
+2024-11-19 01:36:56,995 p=4620 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:36:57,001 p=4620 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_equipo.txt] ****************************************************************************************************************************************
+2024-11-19 01:36:57,087 p=4620 u=vagrant n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "AnsibleUndefinedVariable: 'dict object' has no attribute 'cpu'"}
+2024-11-19 01:36:57,097 p=4620 u=vagrant n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "msg": "AnsibleUndefinedVariable: 'dict object' has no attribute 'cpu'"}
+2024-11-19 01:36:57,099 p=4620 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-19 01:36:57,100 p=4620 u=vagrant n=ansible | 127.0.0.1                  : ok=4    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-19 01:36:57,100 p=4620 u=vagrant n=ansible | localhost                  : ok=4    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-19 01:54:22,552 p=5170 u=vagrant n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-11-19 01:54:23,578 p=5170 u=vagrant n=ansible | localhost | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "172.17.0.1",
+            "10.0.2.15",
+            "192.168.56.3"
+        ],
+        "ansible_all_ipv6_addresses": [
+            "fe80::c6:f7ff:fe1b:4608",
+            "fe80::a00:27ff:fe17:55d6"
+        ],
+        "ansible_apparmor": {
+            "status": "enabled"
+        },
+        "ansible_architecture": "x86_64",
+        "ansible_bios_date": "12/01/2006",
+        "ansible_bios_vendor": "innotek GmbH",
+        "ansible_bios_version": "VirtualBox",
+        "ansible_board_asset_tag": "NA",
+        "ansible_board_name": "VirtualBox",
+        "ansible_board_serial": "NA",
+        "ansible_board_vendor": "Oracle Corporation",
+        "ansible_board_version": "1.2",
+        "ansible_chassis_asset_tag": "NA",
+        "ansible_chassis_serial": "NA",
+        "ansible_chassis_vendor": "Oracle Corporation",
+        "ansible_chassis_version": "NA",
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/boot/vmlinuz-5.15.0-125-generic",
+            "console": "ttyS0",
+            "ro": true,
+            "root": "UUID=058ce254-fb8c-45e0-b5a1-0ce3f2b34b54"
+        },
+        "ansible_date_time": {
+            "date": "2024-11-19",
+            "day": "19",
+            "epoch": "1731981263",
+            "hour": "01",
+            "iso8601": "2024-11-19T01:54:23Z",
+            "iso8601_basic": "20241119T015423479574",
+            "iso8601_basic_short": "20241119T015423",
+            "iso8601_micro": "2024-11-19T01:54:23.479574Z",
+            "minute": "54",
+            "month": "11",
+            "second": "23",
+            "time": "01:54:23",
+            "tz": "UTC",
+            "tz_offset": "+0000",
+            "weekday": "Tuesday",
+            "weekday_number": "2",
+            "weeknumber": "47",
+            "year": "2024"
+        },
+        "ansible_default_ipv4": {
+            "address": "10.0.2.15",
+            "alias": "enp0s3",
+            "broadcast": "",
+            "gateway": "10.0.2.2",
+            "interface": "enp0s3",
+            "macaddress": "02:c6:f7:1b:46:08",
+            "mtu": 1500,
+            "netmask": "255.255.255.0",
+            "network": "10.0.2.0",
+            "type": "ether"
+        },
+        "ansible_default_ipv6": {},
+        "ansible_device_links": {
+            "ids": {
+                "dm-0": [
+                    "dm-name-vg_temp-lv_swap",
+                    "dm-uuid-LVM-53UGlBdWFBzMFamHmxcwOl6ktY5D3FsNMb8FK7bdfxx5sSP79MWJViVmizfa6M75"
+                ],
+                "dm-1": [
+                    "dm-name-vg_datos-lv_docker",
+                    "dm-uuid-LVM-aazIY8m757CSnXp2phCIGJ6lDvfCcb49f2U2X6BbA0VR9eJhYdlroKsNK6e20III"
+                ],
+                "dm-2": [
+                    "dm-name-vg_datos-lv_workareas",
+                    "dm-uuid-LVM-aazIY8m757CSnXp2phCIGJ6lDvfCcb49q95dd0Jbt9SwdDdjqt1uTIwGLUcWNgLG"
+                ],
+                "sdc1": [
+                    "lvm-pv-uuid-hikxRl-fQpu-o5Yd-sjxG-qftf-Qdrq-lxU3lJ"
+                ],
+                "sdd1": [
+                    "lvm-pv-uuid-xg3U1B-582h-AU1U-qvDQ-zFFk-d0z7-LMcDS8"
+                ]
+            },
+            "labels": {
+                "sda1": [
+                    "cloudimg-rootfs"
+                ],
+                "sdb": [
+                    "cidata"
+                ]
+            },
+            "masters": {
+                "sdc1": [
+                    "dm-1",
+                    "dm-2"
+                ],
+                "sdd1": [
+                    "dm-0"
+                ]
+            },
+            "uuids": {
+                "dm-0": [
+                    "95630f0c-dae3-4360-9bd8-99703f677fe9"
+                ],
+                "dm-1": [
+                    "d305d76a-766a-40e5-a00c-252a54d4c079"
+                ],
+                "dm-2": [
+                    "16a964b4-b42b-4e1f-823a-3974621768ec"
+                ],
+                "sda1": [
+                    "058ce254-fb8c-45e0-b5a1-0ce3f2b34b54"
+                ],
+                "sdb": [
+                    "2024-08-23-02-28-28-00"
+                ]
+            }
+        },
+        "ansible_devices": {
+            "dm-0": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-vg_temp-lv_swap",
+                        "dm-uuid-LVM-53UGlBdWFBzMFamHmxcwOl6ktY5D3FsNMb8FK7bdfxx5sSP79MWJViVmizfa6M75"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "95630f0c-dae3-4360-9bd8-99703f677fe9"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": "1048576",
+                "sectorsize": "512",
+                "size": "512.00 MB",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "dm-1": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-vg_datos-lv_docker",
+                        "dm-uuid-LVM-aazIY8m757CSnXp2phCIGJ6lDvfCcb49f2U2X6BbA0VR9eJhYdlroKsNK6e20III"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "d305d76a-766a-40e5-a00c-252a54d4c079"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": "835584",
+                "sectorsize": "512",
+                "size": "408.00 MB",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "dm-2": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-vg_datos-lv_workareas",
+                        "dm-uuid-LVM-aazIY8m757CSnXp2phCIGJ6lDvfCcb49q95dd0Jbt9SwdDdjqt1uTIwGLUcWNgLG"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "16a964b4-b42b-4e1f-823a-3974621768ec"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": "3145728",
+                "sectorsize": "512",
+                "size": "1.50 GB",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop0": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "130448",
+                "sectorsize": "512",
+                "size": "63.70 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop1": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "130960",
+                "sectorsize": "512",
+                "size": "63.95 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop2": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "178256",
+                "sectorsize": "512",
+                "size": "87.04 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop3": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "79520",
+                "sectorsize": "512",
+                "size": "38.83 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop4": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop5": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop6": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop7": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": "0",
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "sda": {
+                "holders": [],
+                "host": "SCSI storage controller: Broadcom / LSI 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "HARDDISK",
+                "partitions": {
+                    "sda1": {
+                        "holders": [],
+                        "links": {
+                            "ids": [],
+                            "labels": [
+                                "cloudimg-rootfs"
+                            ],
+                            "masters": [],
+                            "uuids": [
+                                "058ce254-fb8c-45e0-b5a1-0ce3f2b34b54"
+                            ]
+                        },
+                        "sectors": "83883999",
+                        "sectorsize": 512,
+                        "size": "40.00 GB",
+                        "start": "2048",
+                        "uuid": "058ce254-fb8c-45e0-b5a1-0ce3f2b34b54"
+                    }
+                },
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "83886080",
+                "sectorsize": "512",
+                "size": "40.00 GB",
+                "support_discard": "0",
+                "vendor": "VBOX",
+                "virtual": 1
+            },
+            "sdb": {
+                "holders": [],
+                "host": "SCSI storage controller: Broadcom / LSI 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI",
+                "links": {
+                    "ids": [],
+                    "labels": [
+                        "cidata"
+                    ],
+                    "masters": [],
+                    "uuids": [
+                        "2024-08-23-02-28-28-00"
+                    ]
+                },
+                "model": "HARDDISK",
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "20480",
+                "sectorsize": "512",
+                "size": "10.00 MB",
+                "support_discard": "0",
+                "vendor": "VBOX",
+                "virtual": 1
+            },
+            "sdc": {
+                "holders": [],
+                "host": "SCSI storage controller: Broadcom / LSI 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "HARDDISK",
+                "partitions": {
+                    "sdc1": {
+                        "holders": [
+                            "vg_datos-lv_docker",
+                            "vg_datos-lv_workareas"
+                        ],
+                        "links": {
+                            "ids": [
+                                "lvm-pv-uuid-hikxRl-fQpu-o5Yd-sjxG-qftf-Qdrq-lxU3lJ"
+                            ],
+                            "labels": [],
+                            "masters": [
+                                "dm-1",
+                                "dm-2"
+                            ],
+                            "uuids": []
+                        },
+                        "sectors": "4192256",
+                        "sectorsize": 512,
+                        "size": "2.00 GB",
+                        "start": "2048",
+                        "uuid": null
+                    }
+                },
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "4194304",
+                "sectorsize": "512",
+                "size": "2.00 GB",
+                "support_discard": "0",
+                "vendor": "VBOX",
+                "virtual": 1
+            },
+            "sdd": {
+                "holders": [],
+                "host": "SCSI storage controller: Broadcom / LSI 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "HARDDISK",
+                "partitions": {
+                    "sdd1": {
+                        "holders": [
+                            "vg_temp-lv_swap"
+                        ],
+                        "links": {
+                            "ids": [
+                                "lvm-pv-uuid-xg3U1B-582h-AU1U-qvDQ-zFFk-d0z7-LMcDS8"
+                            ],
+                            "labels": [],
+                            "masters": [
+                                "dm-0"
+                            ],
+                            "uuids": []
+                        },
+                        "sectors": "2095104",
+                        "sectorsize": 512,
+                        "size": "1023.00 MB",
+                        "start": "2048",
+                        "uuid": null
+                    }
+                },
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "2097152",
+                "sectorsize": "512",
+                "size": "1.00 GB",
+                "support_discard": "0",
+                "vendor": "VBOX",
+                "virtual": 1
+            },
+            "sde": {
+                "holders": [],
+                "host": "SCSI storage controller: Broadcom / LSI 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "HARDDISK",
+                "partitions": {},
+                "removable": "0",
+                "rotational": "1",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": "4194304",
+                "sectorsize": "512",
+                "size": "2.00 GB",
+                "support_discard": "0",
+                "vendor": "VBOX",
+                "virtual": 1
+            }
+        },
+        "ansible_distribution": "Ubuntu",
+        "ansible_distribution_file_parsed": true,
+        "ansible_distribution_file_path": "/etc/os-release",
+        "ansible_distribution_file_variety": "Debian",
+        "ansible_distribution_major_version": "22",
+        "ansible_distribution_release": "jammy",
+        "ansible_distribution_version": "22.04",
+        "ansible_dns": {
+            "nameservers": [
+                "127.0.0.53"
+            ],
+            "options": {
+                "edns0": true,
+                "trust-ad": true
+            },
+            "search": [
+                "pcnat.telecentro.net.ar"
+            ]
+        },
+        "ansible_docker0": {
+            "active": false,
+            "device": "docker0",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on",
+                "hsr_dup_offload": "off [fixed]",
+                "hsr_fwd_offload": "off [fixed]",
+                "hsr_tag_ins_offload": "off [fixed]",
+                "hsr_tag_rm_offload": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "macsec_hw_offload": "off [fixed]",
+                "netns_local": "on [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "off [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_gro_list": "off",
+                "rx_udp_gro_forwarding": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "on",
+                "tx_fcoe_segmentation": "on",
+                "tx_gre_csum_segmentation": "on",
+                "tx_gre_segmentation": "on",
+                "tx_gso_list": "on",
+                "tx_gso_partial": "on",
+                "tx_gso_robust": "on",
+                "tx_ipxip4_segmentation": "on",
+                "tx_ipxip6_segmentation": "on",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "on",
+                "tx_sctp_segmentation": "on",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "on",
+                "tx_tcp_mangleid_segmentation": "on",
+                "tx_tcp_segmentation": "on",
+                "tx_tunnel_remcsum_segmentation": "on",
+                "tx_udp_segmentation": "on",
+                "tx_udp_tnl_csum_segmentation": "on",
+                "tx_udp_tnl_segmentation": "on",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "on",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "id": "8000.02427bc6964d",
+            "interfaces": [],
+            "ipv4": {
+                "address": "172.17.0.1",
+                "broadcast": "172.17.255.255",
+                "netmask": "255.255.0.0",
+                "network": "172.17.0.0"
+            },
+            "macaddress": "02:42:7b:c6:96:4d",
+            "mtu": 1500,
+            "promisc": false,
+            "speed": -1,
+            "stp": false,
+            "timestamping": [],
+            "type": "bridge"
+        },
+        "ansible_domain": "",
+        "ansible_effective_group_id": 1000,
+        "ansible_effective_user_id": 1000,
+        "ansible_enp0s3": {
+            "active": true,
+            "device": "enp0s3",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "off [fixed]",
+                "hsr_dup_offload": "off [fixed]",
+                "hsr_fwd_offload": "off [fixed]",
+                "hsr_tag_ins_offload": "off [fixed]",
+                "hsr_tag_rm_offload": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "macsec_hw_offload": "off [fixed]",
+                "netns_local": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off",
+                "rx_checksumming": "off",
+                "rx_fcs": "off",
+                "rx_gro_hw": "off [fixed]",
+                "rx_gro_list": "off",
+                "rx_udp_gro_forwarding": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "on [fixed]",
+                "rx_vlan_offload": "on",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_list": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off [fixed]",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off",
+                "tx_tcp_segmentation": "on",
+                "tx_tunnel_remcsum_segmentation": "off [fixed]",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "on [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "10.0.2.15",
+                "broadcast": "",
+                "netmask": "255.255.255.0",
+                "network": "10.0.2.0"
+            },
+            "ipv6": [
+                {
+                    "address": "fe80::c6:f7ff:fe1b:4608",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "02:c6:f7:1b:46:08",
+            "module": "e1000",
+            "mtu": 1500,
+            "pciid": "0000:00:03.0",
+            "promisc": false,
+            "speed": 1000,
+            "timestamping": [],
+            "type": "ether"
+        },
+        "ansible_enp0s8": {
+            "active": true,
+            "device": "enp0s8",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "off [fixed]",
+                "hsr_dup_offload": "off [fixed]",
+                "hsr_fwd_offload": "off [fixed]",
+                "hsr_tag_ins_offload": "off [fixed]",
+                "hsr_tag_rm_offload": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "macsec_hw_offload": "off [fixed]",
+                "netns_local": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off",
+                "rx_checksumming": "off",
+                "rx_fcs": "off",
+                "rx_gro_hw": "off [fixed]",
+                "rx_gro_list": "off",
+                "rx_udp_gro_forwarding": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "on [fixed]",
+                "rx_vlan_offload": "on",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_list": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off [fixed]",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off",
+                "tx_tcp_segmentation": "on",
+                "tx_tunnel_remcsum_segmentation": "off [fixed]",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "on [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "192.168.56.3",
+                "broadcast": "192.168.56.255",
+                "netmask": "255.255.255.0",
+                "network": "192.168.56.0"
+            },
+            "ipv6": [
+                {
+                    "address": "fe80::a00:27ff:fe17:55d6",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "08:00:27:17:55:d6",
+            "module": "e1000",
+            "mtu": 1500,
+            "pciid": "0000:00:08.0",
+            "promisc": false,
+            "speed": 1000,
+            "timestamping": [],
+            "type": "ether"
+        },
+        "ansible_env": {
+            "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+            "HISTFILESIZE": "-1",
+            "HISTSIZE": "10000",
+            "HOME": "/home/vagrant",
+            "LANG": "C.UTF-8",
+            "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+            "LESSOPEN": "| /usr/bin/lesspipe %s",
+            "LOGNAME": "vagrant",
+            "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+            "MOTD_SHOWN": "pam",
+            "OLDPWD": "/home/vagrant/RTA_Examen_20241117",
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+            "PROMPT_COMMAND": "history -a; history -c; history -r; ",
+            "PWD": "/home/vagrant/repogit/UTN-FRA_SO_Examenes/202406/ansible",
+            "SHELL": "/bin/bash",
+            "SHLVL": "0",
+            "SSH_CLIENT": "10.0.2.2 61982 22",
+            "SSH_CONNECTION": "10.0.2.2 61982 10.0.2.15 22",
+            "SSH_TTY": "/dev/pts/0",
+            "TERM": "xterm-256color",
+            "USER": "vagrant",
+            "XDG_DATA_DIRS": "/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+            "XDG_RUNTIME_DIR": "/run/user/1000",
+            "XDG_SESSION_CLASS": "user",
+            "XDG_SESSION_ID": "4",
+            "XDG_SESSION_TYPE": "tty",
+            "_": "/usr/bin/ansible"
+        },
+        "ansible_fibre_channel_wwn": [],
+        "ansible_fips": false,
+        "ansible_form_factor": "Other",
+        "ansible_fqdn": "VMPruebas3",
+        "ansible_hostname": "VMPruebas3",
+        "ansible_hostnqn": "",
+        "ansible_interfaces": [
+            "docker0",
+            "lo",
+            "enp0s8",
+            "enp0s3"
+        ],
+        "ansible_is_chroot": false,
+        "ansible_iscsi_iqn": "",
+        "ansible_kernel": "5.15.0-125-generic",
+        "ansible_kernel_version": "#135-Ubuntu SMP Fri Sep 27 13:53:58 UTC 2024",
+        "ansible_lo": {
+            "active": true,
+            "device": "lo",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "fcoe_mtu": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on [fixed]",
+                "hsr_dup_offload": "off [fixed]",
+                "hsr_fwd_offload": "off [fixed]",
+                "hsr_tag_ins_offload": "off [fixed]",
+                "hsr_tag_rm_offload": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "on [fixed]",
+                "macsec_hw_offload": "off [fixed]",
+                "netns_local": "on [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "on [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_gro_list": "off",
+                "rx_udp_gro_forwarding": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "on [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_list": "on",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_lockless": "on [fixed]",
+                "tx_nocache_copy": "off [fixed]",
+                "tx_scatter_gather": "on [fixed]",
+                "tx_scatter_gather_fraglist": "on [fixed]",
+                "tx_sctp_segmentation": "on",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "on",
+                "tx_tcp_mangleid_segmentation": "on",
+                "tx_tcp_segmentation": "on",
+                "tx_tunnel_remcsum_segmentation": "off [fixed]",
+                "tx_udp_segmentation": "on",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "on [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "127.0.0.1",
+                "broadcast": "",
+                "netmask": "255.0.0.0",
+                "network": "127.0.0.0"
+            },
+            "ipv6": [
+                {
+                    "address": "::1",
+                    "prefix": "128",
+                    "scope": "host"
+                }
+            ],
+            "mtu": 65536,
+            "promisc": false,
+            "timestamping": [],
+            "type": "loopback"
+        },
+        "ansible_local": {},
+        "ansible_lsb": {
+            "codename": "jammy",
+            "description": "Ubuntu 22.04.4 LTS",
+            "id": "Ubuntu",
+            "major_release": "22",
+            "release": "22.04"
+        },
+        "ansible_machine": "x86_64",
+        "ansible_machine_id": "fd7ae2706f284a1b8f30bf7c25049304",
+        "ansible_memfree_mb": 1256,
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 1673,
+                "used": 290
+            },
+            "real": {
+                "free": 1256,
+                "total": 1963,
+                "used": 707
+            },
+            "swap": {
+                "cached": 0,
+                "free": 0,
+                "total": 0,
+                "used": 0
+            }
+        },
+        "ansible_memtotal_mb": 1963,
+        "ansible_mounts": [
+            {
+                "block_available": 9364611,
+                "block_size": 4096,
+                "block_total": 10145391,
+                "block_used": 780780,
+                "device": "/dev/sda1",
+                "fstype": "ext4",
+                "inode_available": 4964786,
+                "inode_total": 5120000,
+                "inode_used": 155214,
+                "mount": "/",
+                "options": "rw,relatime,discard,errors=remount-ro",
+                "size_available": 38357446656,
+                "size_total": 41555521536,
+                "uuid": "058ce254-fb8c-45e0-b5a1-0ce3f2b34b54"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 697,
+                "block_used": 697,
+                "device": "/dev/loop2",
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 959,
+                "inode_used": 959,
+                "mount": "/snap/lxd/29351",
+                "options": "ro,nodev,relatime,errors=continue",
+                "size_available": 0,
+                "size_total": 91357184,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 512,
+                "block_used": 512,
+                "device": "/dev/loop1",
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 12057,
+                "inode_used": 12057,
+                "mount": "/snap/core20/2318",
+                "options": "ro,nodev,relatime,errors=continue",
+                "size_available": 0,
+                "size_total": 67108864,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 311,
+                "block_used": 311,
+                "device": "/dev/loop3",
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 651,
+                "inode_used": 651,
+                "mount": "/snap/snapd/21759",
+                "options": "ro,nodev,relatime,errors=continue",
+                "size_available": 0,
+                "size_total": 40763392,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 510,
+                "block_used": 510,
+                "device": "/dev/loop0",
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 11851,
+                "inode_used": 11851,
+                "mount": "/snap/core20/2434",
+                "options": "ro,nodev,relatime,errors=continue",
+                "size_available": 0,
+                "size_total": 66846720,
+                "uuid": "N/A"
+            }
+        ],
+        "ansible_nodename": "VMPruebas3",
+        "ansible_os_family": "Debian",
+        "ansible_pkg_mgr": "apt",
+        "ansible_proc_cmdline": {
+            "BOOT_IMAGE": "/boot/vmlinuz-5.15.0-125-generic",
+            "console": [
+                "tty1",
+                "ttyS0"
+            ],
+            "ro": true,
+            "root": "UUID=058ce254-fb8c-45e0-b5a1-0ce3f2b34b54"
+        },
+        "ansible_processor": [
+            "0",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+            "1",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz"
+        ],
+        "ansible_processor_cores": 2,
+        "ansible_processor_count": 1,
+        "ansible_processor_nproc": 2,
+        "ansible_processor_threads_per_core": 1,
+        "ansible_processor_vcpus": 2,
+        "ansible_product_name": "VirtualBox",
+        "ansible_product_serial": "NA",
+        "ansible_product_uuid": "NA",
+        "ansible_product_version": "1.2",
+        "ansible_python": {
+            "executable": "/usr/bin/python3",
+            "has_sslcontext": true,
+            "type": "cpython",
+            "version": {
+                "major": 3,
+                "micro": 12,
+                "minor": 10,
+                "releaselevel": "final",
+                "serial": 0
+            },
+            "version_info": [
+                3,
+                10,
+                12,
+                "final",
+                0
+            ]
+        },
+        "ansible_python_version": "3.10.12",
+        "ansible_real_group_id": 1000,
+        "ansible_real_user_id": 1000,
+        "ansible_selinux": {
+            "status": "disabled"
+        },
+        "ansible_selinux_python_present": true,
+        "ansible_service_mgr": "systemd",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHj/br4Wd5TFwc35R+iNxrMEZIzeGCtJUVN/WaLrfqvqDmlyxPiqHmdAXWxG0xj17qdPcaun3acN6ZeP9Rcw9sw=",
+        "ansible_ssh_host_key_ecdsa_public_keytype": "ecdsa-sha2-nistp256",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIGjEMhZGvMqTciQa6b9YpIbsyfbRuUVTYQvhIIZIDzpR",
+        "ansible_ssh_host_key_ed25519_public_keytype": "ssh-ed25519",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQCfr8dCi3fR/oK9qrmmmtwbR0I+aQyuSJVSZpV7zd/nuJm9hk4gfTbSFPtPiz9QrpM8ohQ8wfWq7jWwFTjsLS/mdUc6b1xkBwMPf8OdGhyHPvPE2FDXSY+BkKBiS7xO/u9EZFzO61ny6jZJHULy5rqXUdB3VoTZ0y21ogxxpUnErHFTKmCwbluimGzx7dROgMi1HP3FDtS1zZol60KGtRaQkRI9OnapWyo7fIXEGKp3mjL9hK/B/7Kr88GcmslkJbDlXKjyjBcDVXdAytr8edS4J8YY+ZCx2ee0sSWuUKtSuQXltGroKHat2/YZ6X9IOLqtJ8mPUb5c7xedRLG4DLnSLg6wOYA2oAV2UssV0eXbSujED/H83nvUdB4YwhiXs/93BUZWzYDbMIUrj2v1ZYWnlxRVDvczFjberDjk8IBBzzJJy+R232i+Q/DNFPyy/IahPq5XrC5uD7p+obfGULhrp0cSEnH2HNXf3FxcNoqFGUF5X2AsHVkCZm03RW1fpVU=",
+        "ansible_ssh_host_key_rsa_public_keytype": "ssh-rsa",
+        "ansible_swapfree_mb": 0,
+        "ansible_swaptotal_mb": 0,
+        "ansible_system": "Linux",
+        "ansible_system_capabilities": [
+            ""
+        ],
+        "ansible_system_capabilities_enforced": "True",
+        "ansible_system_vendor": "innotek GmbH",
+        "ansible_uptime_seconds": 17455,
+        "ansible_user_dir": "/home/vagrant",
+        "ansible_user_gecos": ",,,",
+        "ansible_user_gid": 1000,
+        "ansible_user_id": "vagrant",
+        "ansible_user_shell": "/bin/bash",
+        "ansible_user_uid": 1000,
+        "ansible_userspace_architecture": "x86_64",
+        "ansible_userspace_bits": "64",
+        "ansible_virtualization_role": "guest",
+        "ansible_virtualization_type": "virtualbox",
+        "gather_subset": [
+            "all"
+        ],
+        "module_setup": true
+    },
+    "changed": false
+}
+2024-11-19 01:57:29,172 p=5256 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-19 01:57:29,289 p=5256 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-19 01:57:29,299 p=5256 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************
+2024-11-19 01:57:30,583 p=5256 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 01:57:31,091 p=5256 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:57:31,105 p=5256 u=vagrant n=ansible | TASK [include_role : 2do_parcial] **********************************************************************************************************************************************************
+2024-11-19 01:57:31,152 p=5256 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio alumno] ***********************************************************************************************************************************************
+2024-11-19 01:57:31,505 p=5256 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 01:57:31,556 p=5256 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:57:31,565 p=5256 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio equipo] ***********************************************************************************************************************************************
+2024-11-19 01:57:31,825 p=5256 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 01:57:31,854 p=5256 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:57:31,862 p=5256 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_alumno.txt] ****************************************************************************************************************************************
+2024-11-19 01:57:32,504 p=5256 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 01:57:32,621 p=5256 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:57:32,645 p=5256 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_equipo.txt] ****************************************************************************************************************************************
+2024-11-19 01:57:33,167 p=5256 u=vagrant n=ansible | changed: [localhost]
+2024-11-19 01:57:33,315 p=5256 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 01:57:33,323 p=5256 u=vagrant n=ansible | TASK [Otra tarea] **************************************************************************************************************************************************************************
+2024-11-19 01:57:33,339 p=5256 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-19 01:57:33,346 p=5256 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-19 01:57:33,363 p=5256 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-19 01:57:33,364 p=5256 u=vagrant n=ansible | 127.0.0.1                  : ok=6    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-19 01:57:33,364 p=5256 u=vagrant n=ansible | localhost                  : ok=6    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-19 02:04:49,654 p=5882 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-19 02:04:49,771 p=5882 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-19 02:04:49,783 p=5882 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************
+2024-11-19 02:04:50,987 p=5882 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 02:04:51,335 p=5882 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 02:04:51,351 p=5882 u=vagrant n=ansible | TASK [include_role : 2do_parcial] **********************************************************************************************************************************************************
+2024-11-19 02:04:51,395 p=5882 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio alumno] ***********************************************************************************************************************************************
+2024-11-19 02:04:51,760 p=5882 u=vagrant n=ansible | changed: [localhost]
+2024-11-19 02:04:51,791 p=5882 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 02:04:51,799 p=5882 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio equipo] ***********************************************************************************************************************************************
+2024-11-19 02:04:52,052 p=5882 u=vagrant n=ansible | changed: [localhost]
+2024-11-19 02:04:52,093 p=5882 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 02:04:52,103 p=5882 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_alumno.txt] ****************************************************************************************************************************************
+2024-11-19 02:04:52,673 p=5882 u=vagrant n=ansible | changed: [localhost]
+2024-11-19 02:04:52,880 p=5882 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 02:04:52,886 p=5882 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_equipo.txt] ****************************************************************************************************************************************
+2024-11-19 02:04:53,267 p=5882 u=vagrant n=ansible | changed: [localhost]
+2024-11-19 02:04:53,465 p=5882 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 02:04:53,474 p=5882 u=vagrant n=ansible | TASK [Otra tarea] **************************************************************************************************************************************************************************
+2024-11-19 02:04:53,493 p=5882 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-19 02:04:53,498 p=5882 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-19 02:04:53,514 p=5882 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-19 02:04:53,514 p=5882 u=vagrant n=ansible | 127.0.0.1                  : ok=6    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-19 02:04:53,515 p=5882 u=vagrant n=ansible | localhost                  : ok=6    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-19 02:30:03,431 p=6817 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-19 02:30:03,552 p=6817 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-19 02:30:03,561 p=6817 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************
+2024-11-19 02:30:04,629 p=6817 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 02:30:05,297 p=6817 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 02:30:05,312 p=6817 u=vagrant n=ansible | TASK [include_role : 2do_parcial] **********************************************************************************************************************************************************
+2024-11-19 02:30:05,383 p=6817 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio alumno] ***********************************************************************************************************************************************
+2024-11-19 02:30:05,723 p=6817 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 02:30:05,765 p=6817 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 02:30:05,773 p=6817 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio equipo] ***********************************************************************************************************************************************
+2024-11-19 02:30:06,031 p=6817 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 02:30:06,065 p=6817 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 02:30:06,074 p=6817 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_alumno.txt] ****************************************************************************************************************************************
+2024-11-19 02:30:06,731 p=6817 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 02:30:06,756 p=6817 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 02:30:06,767 p=6817 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_equipo.txt] ****************************************************************************************************************************************
+2024-11-19 02:30:07,245 p=6817 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 02:30:07,279 p=6817 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 02:30:07,287 p=6817 u=vagrant n=ansible | TASK [Otra tarea] **************************************************************************************************************************************************************************
+2024-11-19 02:30:07,302 p=6817 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-19 02:30:07,311 p=6817 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-19 02:30:07,325 p=6817 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-19 02:30:07,327 p=6817 u=vagrant n=ansible | 127.0.0.1                  : ok=6    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-19 02:30:07,328 p=6817 u=vagrant n=ansible | localhost                  : ok=6    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-19 03:14:26,785 p=7536 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-19 03:14:26,999 p=7536 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-19 03:14:27,011 p=7536 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************
+2024-11-19 03:14:29,098 p=7536 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:14:29,733 p=7536 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:14:29,749 p=7536 u=vagrant n=ansible | TASK [include_role : 2do_parcial] **********************************************************************************************************************************************************
+2024-11-19 03:14:29,804 p=7536 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio alumno] ***********************************************************************************************************************************************
+2024-11-19 03:14:30,159 p=7536 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:14:30,283 p=7536 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:14:30,292 p=7536 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio equipo] ***********************************************************************************************************************************************
+2024-11-19 03:14:30,560 p=7536 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:14:30,591 p=7536 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:14:30,599 p=7536 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_alumno.txt] ****************************************************************************************************************************************
+2024-11-19 03:14:31,264 p=7536 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:14:31,294 p=7536 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:14:31,301 p=7536 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_equipo.txt] ****************************************************************************************************************************************
+2024-11-19 03:14:31,713 p=7536 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:14:31,867 p=7536 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:14:31,875 p=7536 u=vagrant n=ansible | TASK [2do_parcial : Configurar sudoers para el grupo 2PSupervisores] ***********************************************************************************************************************
+2024-11-19 03:14:32,410 p=7536 u=vagrant n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Destination /etc/sudoers.d/2psupervisores does not exist !", "rc": 257}
+2024-11-19 03:14:32,477 p=7536 u=vagrant n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "msg": "Destination /etc/sudoers.d/2psupervisores does not exist !", "rc": 257}
+2024-11-19 03:14:32,479 p=7536 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-19 03:14:32,479 p=7536 u=vagrant n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-19 03:14:32,479 p=7536 u=vagrant n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-19 03:16:55,163 p=8133 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-19 03:16:55,284 p=8133 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-19 03:16:55,293 p=8133 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************
+2024-11-19 03:16:56,444 p=8133 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:16:56,921 p=8133 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:16:56,935 p=8133 u=vagrant n=ansible | TASK [include_role : 2do_parcial] **********************************************************************************************************************************************************
+2024-11-19 03:16:56,979 p=8133 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio alumno] ***********************************************************************************************************************************************
+2024-11-19 03:16:57,329 p=8133 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:16:57,360 p=8133 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:16:57,366 p=8133 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio equipo] ***********************************************************************************************************************************************
+2024-11-19 03:16:57,595 p=8133 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:16:57,730 p=8133 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:16:57,737 p=8133 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_alumno.txt] ****************************************************************************************************************************************
+2024-11-19 03:16:58,336 p=8133 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:16:58,491 p=8133 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:16:58,496 p=8133 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_equipo.txt] ****************************************************************************************************************************************
+2024-11-19 03:16:58,960 p=8133 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:16:59,111 p=8133 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:16:59,118 p=8133 u=vagrant n=ansible | TASK [2do_parcial : Configurar sudoers para el grupo 2PSupervisores] ***********************************************************************************************************************
+2024-11-19 03:16:59,431 p=8133 u=vagrant n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Destination /etc/sudoers.d/2PSupervisores does not exist !", "rc": 257}
+2024-11-19 03:16:59,563 p=8133 u=vagrant n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "msg": "Destination /etc/sudoers.d/2PSupervisores does not exist !", "rc": 257}
+2024-11-19 03:16:59,567 p=8133 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-19 03:16:59,567 p=8133 u=vagrant n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-19 03:16:59,567 p=8133 u=vagrant n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-19 03:23:04,518 p=8754 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-11-19 03:23:04,640 p=8754 u=vagrant n=ansible | PLAY [all] *********************************************************************************************************************************************************************************
+2024-11-19 03:23:04,650 p=8754 u=vagrant n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************
+2024-11-19 03:23:05,842 p=8754 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:23:06,291 p=8754 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:23:06,305 p=8754 u=vagrant n=ansible | TASK [include_role : 2do_parcial] **********************************************************************************************************************************************************
+2024-11-19 03:23:06,351 p=8754 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio alumno] ***********************************************************************************************************************************************
+2024-11-19 03:23:06,729 p=8754 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:23:06,748 p=8754 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:23:06,756 p=8754 u=vagrant n=ansible | TASK [2do_parcial : Crear directorio equipo] ***********************************************************************************************************************************************
+2024-11-19 03:23:07,019 p=8754 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:23:07,046 p=8754 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:23:07,053 p=8754 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_alumno.txt] ****************************************************************************************************************************************
+2024-11-19 03:23:07,594 p=8754 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:23:07,757 p=8754 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:23:07,765 p=8754 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo datos_equipo.txt] ****************************************************************************************************************************************
+2024-11-19 03:23:08,179 p=8754 u=vagrant n=ansible | ok: [localhost]
+2024-11-19 03:23:08,384 p=8754 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:23:08,391 p=8754 u=vagrant n=ansible | TASK [2do_parcial : Crear archivo de sudoers para el grupo 2PSupervisores si no existe] ****************************************************************************************************
+2024-11-19 03:23:08,628 p=8754 u=vagrant n=ansible | changed: [localhost]
+2024-11-19 03:23:08,777 p=8754 u=vagrant n=ansible | changed: [127.0.0.1]
+2024-11-19 03:23:08,785 p=8754 u=vagrant n=ansible | TASK [2do_parcial : Configurar sudoers para el grupo 2PSupervisores] ***********************************************************************************************************************
+2024-11-19 03:23:09,141 p=8754 u=vagrant n=ansible | changed: [localhost]
+2024-11-19 03:23:09,221 p=8754 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-11-19 03:23:09,230 p=8754 u=vagrant n=ansible | TASK [Otra tarea] **************************************************************************************************************************************************************************
+2024-11-19 03:23:09,257 p=8754 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-19 03:23:09,260 p=8754 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-11-19 03:23:09,276 p=8754 u=vagrant n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************
+2024-11-19 03:23:09,278 p=8754 u=vagrant n=ansible | 127.0.0.1                  : ok=8    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-11-19 03:23:09,279 p=8754 u=vagrant n=ansible | localhost                  : ok=8    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
